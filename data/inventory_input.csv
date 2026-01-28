@@ -1,0 +1,4 @@
+BarCode,Description,Category_Tier,Supplier_Region,Stock_On_Hand,On_Order,Avg_Monthly_Demand,Cost,Revenue
+SKU001,High-demand Core Item,A. Core,Pacific,50,20,30,10,15
+SKU002,Support Item with moderate demand,B. Support,Asia,80,0,25,8,12
+SKU003,Tail Item low demand,C. Tail,Pacific,10,5,5,20,18

@@ -1,0 +1,10 @@
+# Lead Time Map Configuration
+# Defines average lead times (in months) for supplier regions.
+# Externalizing this config allows easy updates for new regions or policy changes.
+
+Pacific: 3
+Asia: 6
+Europe: 8
+NorthAmerica: 4
+SouthAmerica: 5
+Africa: 7

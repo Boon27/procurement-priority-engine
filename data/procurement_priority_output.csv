@@ -1,0 +1,4 @@
+BarCode,Description,Category_Tier,Supplier_Region,Effective_Stock,Lead_Time_Demand,Total_Safety_Stock,Dynamic_Min,Dynamic_Max,Projected_Stock_At_Arrival,Stockout_Risk,Suggested_Order_Qty,ABC_Class,XYZ_Class,ABC_XYZ,PL_Tier,Realistic_Profit,Priority_Score,Score_Breakdown
+SKU001,High-demand Core Item,A. Core,Pacific,70,90,70.6,160.6,220.6,-20,HIGH,151,A,X,AX,HIGH_PROFIT,755,65,Tier:3|Risk:3|Order:1|ABC:3|XYZ:3|PL:3
+SKU002,Support Item with moderate demand,B. Support,Asia,80,150,117.8,267.8,317.8,-70,HIGH,238,B,Y,BY,HIGH_PROFIT,714,54,Tier:2|Risk:3|Order:1|ABC:2|XYZ:2|PL:3
+SKU003,Tail Item low demand,C. Tail,Pacific,15,15,9.7,24.7,34.7,0,LOW,20,C,Z,CZ,LOSS,-30,12,Tier:1|Risk:1|Order:1|ABC:1|XYZ:1|PL:0

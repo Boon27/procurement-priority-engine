@@ -1,0 +1,36 @@
+# Priority Scoring Configuration
+# Defines weights and multipliers for procurement prioritization.
+# Externalizing this config allows easy tuning without modifying code.
+
+tier_weight:
+  A. Core: 3
+  B. Support: 2
+  C. Tail: 1
+
+risk_weight:
+  HIGH: 3
+  MEDIUM: 2
+  LOW: 1
+
+abc_weight:
+  A: 3
+  B: 2
+  C: 1
+
+xyz_weight:
+  X: 3
+  Y: 2
+  Z: 1
+
+pl_weight:
+  HIGH_PROFIT: 3
+  LOW_PROFIT: 2
+  LOSS: 0
+
+multipliers:
+  tier: 3
+  risk: 4
+  order_flag: 2
+  abc: 5
+  xyz: 3
+  pl: 6

@@ -1,0 +1,15 @@
+# Service Level Policy Configuration
+# Defines target fill rates and corresponding Z-scores for each category tier.
+# Externalizing this config allows easy updates without modifying code.
+
+A. Core:
+  fill_rate: 0.98
+  z: 2.05
+
+B. Support:
+  fill_rate: 0.95
+  z: 1.65
+
+C. Tail:
+  fill_rate: 0.90
+  z: 1.28
